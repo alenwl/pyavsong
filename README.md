@@ -1,6 +1,6 @@
 # pyavsong
 
-`pyavsong` is a CLI application that given the name of an artist, will display the number of average words in their songs. 
+`pyavsong` is a Python CLI application that given the name of an artist, will display the number of average words in their songs. 
 
 ## Installation
 
