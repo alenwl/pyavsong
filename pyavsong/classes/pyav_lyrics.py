@@ -93,7 +93,6 @@ class PyAvLyrics():
             for url in self.urls:
                 tasks.append(asyncio.ensure_future(self.get_word_count(session, url)))
             await asyncio.gather(*tasks)
-            asyncio.gather()
 
     def get_url_requests(self) -> None:
         """
